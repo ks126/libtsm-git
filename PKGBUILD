@@ -1,18 +1,18 @@
-# Maintainer: Aetf <aetf at unlimitedcodeworks dot xyz>
+# Maintainer: ks126 <ks126@outlook.jp>
 pkgname=libtsm-git
 _gitname=libtsm
-pkgver=3.r17.gb73acb4
+pkgver=3.r18.g86aaa3e
 pkgrel=1
 pkgdesc="Terminal-emulator State Machine"
 arch=('i686' 'x86_64')
-url="http://www.freedesktop.org/wiki/Software/kmscon/$_gitname"
+url="https://github.com/ks126/libtsm"
 license=('MIT')
 depends=(glibc)
 makedepends=('git' 'libxkbcommon')
 provides=('libtsm')
 conflicts=('libtsm')
 options=(!libtool)
-source=('git://people.freedesktop.org/~dvdhrm/libtsm')
+source=('git://github.com/ks126/libtsm')
 sha256sums=('SKIP')
 
 pkgver() {
